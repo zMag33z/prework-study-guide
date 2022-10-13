@@ -8,41 +8,80 @@
     <title>Prework Study Guide</title>
   </head>
   <body>
-    <header id="header">
+    <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
       <section class="card" id="html-section">
         <h2>HTML</h2>
         <ul>
-          <li>The head element contains information about the webpage.</li>
-          <li>The body element represents the visible content shown to the user.</li>
+          <li>"!DOCTYPE html" declaration is letting the browser know to expect HTML on the page.</li>
+          <li>An HTML attribute defines additional information about an element. ex:  lang="en" (language=english).</li>
+          <li>HTML attributes are always defined in the beginning element, never the closing element.</li>
+          <li>The head element contains the metadata for our web application.</li>
+          <li>To learn more about other types of information that can be stored in the meta tag, visit the <a href="https://www.w3schools.com/tags/tag_meta.asp">W3School page on the HTML meta tag.</a></li>
+          <li>If you are curious to learn more about UTF-8 and character encoding, review this <a href="https://en.wikipedia.org/wiki/UTF-8">Wikipedia article on UTF-8.</a></li>
+          <li>Elements that are nested inside other elements are called child elements. If there are three elements nested inside of a <body> element, those three nested elements are known as child elements. The element that holds all the children—in this case, the <body> element—is known as the parent element. This “parent/child” language is often used by developers to explain the relationship among elements in HTML.</li>
+          <li>The 'body' element defines the body of the document, which contains the content that is visible to the user.</li>
+          <li>The 'body' element is an example of a semantic HTML element.</li>
+          <li>When working with visible HTML elements, the content is contained between an opening tag and a closing tag.</li>
+          <li>The words “element” and “tag” are commonly used interchangeably in the web development world, but it is important to know the difference. An element refers to the entire element from opening tag to closing tag, whereas a tag refers only to what appears inside the angle brackets.</li>
+          <li>Order matters! When using headings, it is important that we use heading tags in order from h1 to h6 to make the page accessible to users who access the page using screen readers or other devices. In addition, the biggest heading, h1, should only appear once on each page.</li>
+          <li>The `src` attribute defines the location, or source, of the image file.</li>
+          <li>The `alt` attribute contains a text string that describes the appearance and functionality of the image.  The alt text is important for screen readers and other assistive technologies. Alt text can also improve search engine rankings for your website.</li>
+          <li>The 'section' element is a semantic element that defines a section in a document that contains thematic content.</li>
         </ul>
       </section>
    
       <section class="card" id="css-section">
         <h2>CSS</h2>
           <ul>
+            <li>HTML strictly handles the structure and content of a webpage, CSS defines the colors, aesthetics, visual layout, and organization. We use CSS to define style rules for specific elements of an HTML page and format them using a wide range of style options.</li>
+            <li>There are three ways to style a webpage using CSS: inline CSS, internal CSS style sheet, and external CSS style sheet.</li>
+            <li>When a developer wants to style an element directly in the HTML file, they use inline CSS.  Ex: Style in head element  h1 style="color:red;"</li>
+            <li>Internal Style Sheet contain CSS rules for a webpage in the "head" section of HTML.</li>
+            <li>The most common way to style a webpage is by using an external CSS style sheet.</li>
+            <li>Separation of concerns is a widely used term in web development and refers to separating code into different files based on use. It is one of the key design principles that we practice in the boot camp. Separation of concerns is based on the idea that each section of code should have its own responsibility. To learn more about this principle, visit the <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Wikipedia article about separation of concerns.</a></li>
+            <li>CSS box model.  For more information regarding the box model and how it is used to define space inside and outside elements, review the <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">MDN Web Docs on the box model.</a></li>
             <li>A margin indicates how much space we want around the outside of an element.</li>
             <li>A padding indicates how much space we want around the content inside an element.</li>
+            <li>Assigning colors in CSS can be done in many ways, including by semantic references such as gray or blue. We can also refer to a color by its hexadecimal code, or hex #. Try selecting a color and replace the border color with its hex #, which you can find on this <a href="https://htmlcolorcodes.com/">HTML Color Codes website</a></li>
           </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2>Git</h2>
         <ul>
-          <li>Git Cheat Sheet url https://education.github.com/git-cheat-sheet-education.pdf</li>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
+          <li>git add -A:  commit all files in the working branch.</li>
+          <li>git commit -m "message input here":  flat to associate a message with the commit.</li>
+          <li>git pull origin main:  check if branch is up to date before pull request.  (should return main up to date not behind or ahead with no commits ahead)</li>
+          <li>git push origin branch name:  sends commit info to GitHub to be merged.</li>
+          <li>Navigate to file on GitHub.  Click pull requests tab.  Click New pull request tab.  Double check branches tab.  Mostly and usually main left, feature branch right.  Click Create pull request.  Add a subject title and then a brief description.  Click create pull request.  Second box click Merge pull request.  Delete branch after Merge.  Double check code on GitHub.  Then update local main branch on console.  git checkout main.  Then pull the remote main branch into local.  git pull origin main.</li>
         </ul>   
       </section>
    
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">MDN Web Docs on JavaScript basics</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">MDN Web Docs on JavaScript data types</a></li>
+          <li>The word console refers to a test environment that developers use to check out their code. The second part, .log(), is a method, which means a set of instructions that can be executed by a computer. The .log() method will output whatever we add inside the parentheses to the console.</li>
+          <li>The console.log method was created to make it easier for developers to test their code.</li>
           <li>A variable is a named container that allows us to store data in our code.</li>
           <li>Control flow is the order in which a computer executes code in a script.</li>
+          <li>Control flow can be interrupted, however. We can use conditional statements and loops to control the order in which code is executed, or if it is even executed at all.</li>
+          <li>There are a few ways to create conditional statements in JavaScript.  Ex: 1. if statement</li>
+          <li>An array is a single variable that is used to hold a group of data. Arrays are typically used to hold data that is related in some way.</li>
+          <li>There are several types of loops.   Ex:  1. for loop.  The first statement determines the starting point for a loop. 
+            The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running.</li>
+          <li>To comment out multiple lines of JavaScript code, put /* before and */ after the block of code.</li>
+          <li>At the most basic level, a function is simply a set of instructions that tells the computer how to perform a certain task.</li>
+          <li>A function's name is followed by parentheses ().</li>
+          <li>Math.floor() and Math.random() are both properties of JavaScript's built-in Math object that can be used together to generate a random number. To learn more about the Math object properties and methods, visit the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">MDN Web Docs on Math</a></li>
         </ul>
       </section>
     </main>
