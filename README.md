@@ -19,13 +19,20 @@ In this Prework Study Guide, you can view notes over four different languages us
 
 ## Credits
 
-<a href="https://www.w3schools.com/tags/tag_meta.asp">W3School page on the HTML</a> meta tag
-<a href="https://en.wikipedia.org/wiki/UTF-8">Wikipedia article on UTF-8</a>
+<a href="https://www.w3schools.com/tags/tag_meta.asp">W3School page on the HTML</a>
+
+<a href="https://en.wikipedia.org/wiki/UTF-8">meta tag Wikipedia article on UTF-8</a>
+
 <a href="https://en.wikipedia.org/wiki/Separation_of_concerns">Wikipedia article about separation of concerns</a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model">MDN Web Docs on the box model</a>
+
 <a href="https://htmlcolorcodes.com/">HTML Color Codes website</a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics">MDN Web Docs on JavaScript basics</a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">MDN Web Docs on JavaScript data types</a>
+
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math">MDN Web Docs on Math</a>
 
 ## License
