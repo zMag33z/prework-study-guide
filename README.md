@@ -17,6 +17,8 @@ N/A
 
 In this Prework Study Guide, you can view notes over four different languages used in web development.  View console by pressing Command+Option+I (macOS), Control+Shift+I (Windows), or right-click select inspect.  Here you will see the list of topics learned over the prework course.  Also there is a suggestion on which topic to study first. 
 
+![Prework Site Image](./assets/images/PreWork.png)
+
 ## Credits
 
 <a href="https://www.w3schools.com/tags/tag_meta.asp">W3School page on the HTML</a>
